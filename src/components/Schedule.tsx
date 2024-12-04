@@ -174,7 +174,7 @@ const Schedule: React.FC = () => {
                   />
                   <input
                     type="text"
-                    className="w-full font-semibold tracking-wider font-poppins px-2 pb-1 text-center
+                    className="w-full font-semibold  font-poppins px-2 pb-1 text-center text-sm
                      outline-gray-400 hover:outline-double "
                     value={schedule[`${day}-${lesson}`]?.time || ""}
                     onChange={(e) =>
